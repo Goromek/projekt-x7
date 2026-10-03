@@ -1,0 +1,14 @@
+{
+  "name": "Afrodyta Kitchen",
+  "short_name": "Afrodyta",
+  "description": "A little recipe book made just for you 💛",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f7f3ee",
+  "theme_color": "#e07a5f",
+  "icons": [
+    { "src": "./assets/icon-512.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "./assets/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

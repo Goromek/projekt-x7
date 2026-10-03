@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#e07a5f">
+    <title>Afrodyta Kitchen 💛</title>
+    <link rel="manifest" href="./manifest.json">
+    <link rel="icon" href="./assets/icon-512.png">
+    <link rel="apple-touch-icon" href="./assets/icon-512.png">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="js/app.js"></script>
+</head>
+<body>
+    <main class="app">
+
+       
+        <section id="view-home"></section>
+
+       
+        <section id="view-recipes">
+            <h2 data-i18n="recipes.title">Recipes</h2>
+            <div class="search-bar">
+                <input type="search" id="search-input" placeholder="Search recipes…" data-i18n-placeholder="recipes.search">
+            </div>
+            <div id="filter-chips" class="filter-chips"></div>
+            <ul id="recipe-list" class="card-list"></ul>
+        </section>
+
+
+        <section id="view-add">
+            <div class="detail">
+                <h2 id="form-heading">New recipe</h2>
+                <form id="recipe-form">
+
+                    <div class="field">
+                        <span data-i18n="form.title">Title</span>
+                        <input type="text" id="f-title" required placeholder="e.g. Sunday pancakes">
+                    </div>
+
+                    <div class="field">
+                        <span data-i18n="form.categories">Categories</span>
+                        <div id="f-categories"></div>
+                    </div>
+
+                    <div class="field">
+                        <span data-i18n="form.ingredients">Ingredients</span>
+                        <div id="f-ingredients"></div>
+                        <button type="button" id="add-ingredient" data-i18n="form.addIngredient">+ Add ingredient</button>
+                    </div>
+                    
+                    <div class="field">
+                        <span data-i18n="form.steps">Steps</span>
+                        <div id="f-steps"></div>
+                        <button type="button" id="add-step" data-i18n="form.addStep">+ Add step</button>
+                    </div>
+
+                    <div class="field">
+                        <span data-i18n="form.photo">Photo</span>
+                        <img id="f-photo-preview" class="photo-preview hidden" alt="">
+                        <input type="file" id="f-photo" accept="image/*">
+                        <button type="button" id="remove-photo" class="btn-link hidden" data-i18n="form.removePhoto">Remove photo</button>
+                    </div>
+
+                    <button type="submit" class="btn-primary" data-i18n="form.save">Save recipe</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="view-settings"></section>
+        <section id="view-recipe-detail"></section>
+
+    </main>
+
+    <footer id="bottom-taskbar">
+        <a href="#/home" data-i18n="nav.home">Home</a>
+        <a href="#/recipes" data-i18n="nav.recipes">Recipes</a>
+        <a href="#/add" data-i18n="nav.add">Add</a>
+        <a href="#/settings" data-i18n="nav.settings">Settings</a>
+    </footer>
+</body>
+</html>
