@@ -18,19 +18,27 @@ export const COMPLIMENTS = [
   "I hope u still believe, that good people exist in this world. I wish u will find a lot of them.",
   "If something's not okay, you have me, remember 😋",
   "Can't wait to meet with u pookie 😜",
-  "Wanna hear something sweet? \nLucinka ;D",
+  `Wanna hear something sweet?  
+  Lucinka 😚`,
   "You remember the little things. That's rare.",
-  "You're proof that tough and kind can be the same person.",
+  "You're proof that tough and kind can be the same person 😇",
   "Try to not worry as much as you do. Breath pookie, everything's gonna be alright.",
   "When I think about you, I think about someone that's just yourself. And that's so beautiful.",
   "God bless u pookie",
   "I really enjoyed making this project, imaginating you open it and (I hope) you being at least a little happier gave me a little spark everytime I felt tired, and wanted to just go to sleep!",
   "I've made something like this, I hope it works and u enjoy it!!",
   "I really like u.",
-  "I sometimes open photos on my phone, and I'm flashed by something amazing. It's you every time.",
+  "When I open gallery on my phone, I'm often flashed by something so incredibly beautiful. It's you every time 🥳",
   "People come and go, but I hope it's not the case between us!",
   "Hi! Ilyy❤️",
-  "I hope your wrist don't hurt rn 😓"
+  "I hope your wrist don't hurt rn 😓",
+  "I wish I could hear your voice every day😅",
+  "May I hug you when we meet?",
+  "Sometimes you're my only reason to keep going, like on a day when I for the first time ran 15km. I wanted to quit so much on 6th km, but you said to me earlier you believe in me. I love you so much pookie.",
+  "You remind me that good and honest people still exsist",
+  "How are u so cute?",
+  "I hope I'm not annoying to you, and u won't get bored with me 🥺",
+  "You look so hot tbh."
 ];
 
 
