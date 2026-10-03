@@ -3,7 +3,7 @@
 export const SEED_RECIPES = [
    {
     id: crypto.randomUUID(),
-    title: "Pierogi ruskie",
+    title: "Pierogi ruskie (Russian dumplings(It says Russian, but historically they come from Poland/Ukrainian teritory))",
     categories: ["polish", "savoury", "boiling", "timec", "dinner"],
     ingredients: [
       "500 g flour", "250 ml hot water", "1 egg", "pinch of salt",

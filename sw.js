@@ -1,6 +1,6 @@
 
 
-const CACHE = "afrodyta-v3";
+const CACHE = "afrodyta-v4";
 
 const ASSETS = [
   "./",
@@ -38,13 +38,21 @@ self.addEventListener("activate", (event) => {
 
 
 self.addEventListener("fetch", (event) => {
+  const url = new URL(event.request.url);
+
+
   if (event.request.method !== "GET") return;
+  if (url.protocol !== "http:" && url.protocol !== "https:") return;
+  if (url.origin !== location.origin) return;
+
   event.respondWith(
     caches.match(event.request).then((cached) => {
       if (cached) return cached;
       return fetch(event.request).then((response) => {
         const copy = response.clone();
-        caches.open(CACHE).then((cache) => cache.put(event.request, copy));
+        caches.open(CACHE)
+          .then((cache) => cache.put(event.request, copy))
+          .catch(() => {}); 
         return response;
       });
     })
