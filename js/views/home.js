@@ -84,6 +84,7 @@ export async function renderHome(db) {
   compCard.className = "compliment-card";
   const comp = document.createElement("p");
   comp.textContent = pickCompliment();
+  comp.className = "boldtext";
   const more = document.createElement("button");
   more.type = "button";
   more.className = "btn-link";
