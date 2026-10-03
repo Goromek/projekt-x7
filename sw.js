@@ -1,6 +1,6 @@
 
 
-const CACHE = "afrodyta-v2";
+const CACHE = "afrodyta-v3";
 
 const ASSETS = [
   "./",
